@@ -1,0 +1,11 @@
+# Build outputs & local secrets
+build_out/
+build/
+app/build/
+.gradle/
+.idea/
+*.iml
+local.properties
+debug.keystore
+*.apk
+*.idsig
