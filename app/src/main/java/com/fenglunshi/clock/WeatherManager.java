@@ -1,4 +1,4 @@
-package com.xiao.clock;
+package com.fenglunshi.clock;
 
 import android.content.Context;
 import android.location.Location;
@@ -279,7 +279,7 @@ public class WeatherManager {
             conn.setReadTimeout(8000);
             conn.setRequestMethod("GET");
             conn.setInstanceFollowRedirects(true);
-            conn.setRequestProperty("User-Agent", "XiaoClock/1.0 (Android)");
+            conn.setRequestProperty("User-Agent", "FengLunShi/1.0 (Android)");
             int code = conn.getResponseCode();
             if (code >= 200 && code < 300) {
                 InputStream is = conn.getInputStream();

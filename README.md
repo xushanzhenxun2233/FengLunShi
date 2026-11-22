@@ -1,8 +1,8 @@
-# 魈时钟 (XiaoClock)
+# 风轮时 (FengLunShi)
 
 专为老旧安卓设备（以及现代安卓设备）设计的纯黑桌面/床头数字时钟 App，**零第三方库依赖**，安装包仅约 **145 KB**，原生适配 **Android 4.0 (API 14) ~ Android 14 (API 34)**。
 
-- **包名**：`com.xiao.clock`
+- **包名**：`com.fenglunshi.clock`
 - **最低系统**：Android 4.0 (Ice Cream Sandwich, API 14)
 - **目标系统**：Android 14 (API 34)
 
@@ -29,7 +29,7 @@
 
 ## 下载安装
 
-直接前往本仓库右侧 **Releases** 页面下载已签名的 `魈时钟-v1.0.0-api14.apk`（已同时启用 v1 + v2 签名，可直接安装到 Android 4.0 及以上设备）。
+直接前往本仓库右侧 **Releases** 页面下载已签名的 `风轮时-v1.0.0-api14.apk`（已同时启用 v1 + v2 签名，可直接安装到 Android 4.0 及以上设备）。
 
 ## 本地编译构建
 
@@ -37,7 +37,7 @@
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\build_apk.ps1
 ```
-产物输出至 `build_out\魈时钟-v1.0.0-api14.apk`。
+产物输出至 `build_out\风轮时-v1.0.0-api14.apk`。
 
 ### 方式二：Android Studio
 直接用 Android Studio 打开本项目目录，Sync 后点击 Build APK 即可。

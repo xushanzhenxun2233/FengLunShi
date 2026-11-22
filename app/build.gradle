@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.xiao.clock'
+    namespace 'com.fenglunshi.clock'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.xiao.clock"
+        applicationId "com.fenglunshi.clock"
         minSdk 14
         targetSdk 34
         versionCode 1

@@ -1,4 +1,4 @@
-package com.xiao.clock;
+package com.fenglunshi.clock;
 
 import android.Manifest;
 import android.app.Activity;
@@ -15,7 +15,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Toast;
 
-import com.xiao.clock.service.ClockAccessibilityService;
+import com.fenglunshi.clock.service.ClockAccessibilityService;
 
 /**
  * Compatibility helper for permissions across Android 4.0 (API 14) to Android 14 (API 34).
@@ -82,7 +82,7 @@ public class PermissionHelper {
             Intent intent = new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS);
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             activity.startActivity(intent);
-            Toast.makeText(activity, "请在列表中找到「魈时钟保活辅助服务」并开启", Toast.LENGTH_LONG).show();
+            Toast.makeText(activity, "请在列表中找到「风轮时保活辅助服务」并开启", Toast.LENGTH_LONG).show();
         } catch (Exception e) {
             Toast.makeText(activity, "无法打开无障碍设置，请手动前往系统设置开启", Toast.LENGTH_SHORT).show();
         }

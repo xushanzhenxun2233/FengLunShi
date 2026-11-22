@@ -1,9 +1,9 @@
-package com.xiao.clock.service;
+package com.fenglunshi.clock.service;
 
 import android.accessibilityservice.AccessibilityService;
 import android.view.accessibility.AccessibilityEvent;
 
-import com.xiao.clock.ClockPrefs;
+import com.fenglunshi.clock.ClockPrefs;
 
 /**
  * AccessibilityService that helps preserve clock process survival on older & modern Android ROMs.

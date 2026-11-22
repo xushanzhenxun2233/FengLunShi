@@ -1,12 +1,12 @@
-package com.xiao.clock.receiver;
+package com.fenglunshi.clock.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.xiao.clock.ClockPrefs;
-import com.xiao.clock.MainActivity;
-import com.xiao.clock.service.KeepAliveService;
+import com.fenglunshi.clock.ClockPrefs;
+import com.fenglunshi.clock.MainActivity;
+import com.fenglunshi.clock.service.KeepAliveService;
 
 /**
  * Handles boot auto-start and app update restart on Android 4.0+ (API 14+).

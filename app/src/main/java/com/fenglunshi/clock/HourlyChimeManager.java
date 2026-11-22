@@ -1,4 +1,4 @@
-package com.xiao.clock;
+package com.fenglunshi.clock;
 
 import android.content.Context;
 import android.media.AudioFormat;
@@ -177,7 +177,7 @@ public class HourlyChimeManager {
         if (tts == null || !ttsReady) return;
         try {
             if (Build.VERSION.SDK_INT >= 21) {
-                tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, "xiao_clock_chime_" + System.currentTimeMillis());
+                tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, "fenglunshi_chime_" + System.currentTimeMillis());
             } else {
                 HashMap<String, String> params = new HashMap<>();
                 params.put(TextToSpeech.Engine.KEY_PARAM_STREAM, String.valueOf(AudioManager.STREAM_MUSIC));

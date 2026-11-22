@@ -1,4 +1,4 @@
-package com.xiao.clock;
+package com.fenglunshi.clock;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -23,7 +23,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.xiao.clock.service.KeepAliveService;
+import com.fenglunshi.clock.service.KeepAliveService;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

@@ -22,7 +22,7 @@ $ClassesDir = Join-Path $OutDir "classes"
 $DexDir = Join-Path $OutDir "dex"
 $UnalignedApk = Join-Path $OutDir "app-unaligned.apk"
 $AlignedApk = Join-Path $OutDir "app-aligned.apk"
-$FinalApk = Join-Path $OutDir "魈时钟-v1.0.0-api14.apk"
+$FinalApk = Join-Path $OutDir "风轮时-v1.0.0-api14.apk"
 $Keystore = Join-Path $ProjectDir "debug.keystore"
 
 if (Test-Path $OutDir) { Remove-Item -Recurse -Force $OutDir }

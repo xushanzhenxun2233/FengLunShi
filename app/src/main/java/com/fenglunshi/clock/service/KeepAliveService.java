@@ -1,4 +1,4 @@
-package com.xiao.clock.service;
+package com.fenglunshi.clock.service;
 
 import android.app.AlarmManager;
 import android.app.Notification;
@@ -17,11 +17,11 @@ import android.os.IBinder;
 import android.os.Looper;
 import android.os.SystemClock;
 
-import com.xiao.clock.ClockPrefs;
-import com.xiao.clock.FloatingClockManager;
-import com.xiao.clock.HourlyChimeManager;
-import com.xiao.clock.MainActivity;
-import com.xiao.clock.R;
+import com.fenglunshi.clock.ClockPrefs;
+import com.fenglunshi.clock.FloatingClockManager;
+import com.fenglunshi.clock.HourlyChimeManager;
+import com.fenglunshi.clock.MainActivity;
+import com.fenglunshi.clock.R;
 
 /**
  * Foreground keep-alive service (API 14 - API 34).
@@ -32,7 +32,7 @@ public class KeepAliveService extends Service {
     private static final String CHANNEL_ID = "retro_clock_keep_alive";
     private static final int NOTIFICATION_ID = 1001;
 
-    public static final String ACTION_SYNC = "com.xiao.clock.ACTION_SYNC_SERVICE";
+    public static final String ACTION_SYNC = "com.fenglunshi.clock.ACTION_SYNC_SERVICE";
 
     private ClockPrefs prefs;
     private FloatingClockManager floatingClockManager;
